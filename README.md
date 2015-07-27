@@ -1,6 +1,6 @@
-[Applied-Apache-Commons-commons-cli](https://github.com/tobiashochguertel/Applied-Apache-Commons-commons-cli)
-[![Build Status](https://travis-ci.org/tobiashochguertel/Applied-Apache-Commons-commons-cli.svg?branch=master)](https://travis-ci.org/tobiashochguertel/Applied-Apache-Commons-commons-cli)
-<!--[![coverage](https://coveralls.io/repos/tobiashochguertel/Applied-Apache-Commons-commons-cli/badge.png)](https://coveralls.io/r/tobiashochguertel/Applied-Apache-Commons-commons-cli)-->
+[Demo-Apache-Commons-commons-cli](https://github.com/tobiashochguertel/Demo-Apache-Commons-commons-cli)
+[![Build Status](https://travis-ci.org/tobiashochguertel/Demo-Apache-Commons-commons-cli.svg?branch=master)](https://travis-ci.org/tobiashochguertel/Demo-Apache-Commons-commons-cli)
+<!--[![coverage](https://coveralls.io/repos/tobiashochguertel/Demo-Apache-Commons-commons-cli/badge.png)](https://coveralls.io/r/tobiashochguertel/Demo-Apache-Commons-commons-cli)-->
 
 [Apache Commons - common CLI](http://commons.apache.org/proper/commons-cli/) praktisch angewandt.
 
