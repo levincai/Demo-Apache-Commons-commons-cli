@@ -1,0 +1,23 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+    <server>
+      <id>sonatype</id>
+      <username>${env.repositoryUsername}</username>
+      <password>${env.repositoryPassword}</password>
+    </server>
+    <server>
+      <id>4EF02BEE</id>
+      <passphrase>${env.gpgPassphrase}</passphrase>
+    </server>
+  </servers>
+  <profiles>
+    <profile>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <gpg.keyname>4EF02BEE</gpg.keyname>
+      </properties>
+    </profile>
+  </profiles>
+</settings>
