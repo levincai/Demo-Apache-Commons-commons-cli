@@ -10,3 +10,4 @@
 
  - [Getting Started User Guide](http://commons.apache.org/proper/commons-cli/introduction.html)
  - [Apache Commons - Commons CLI, Source Code](http://svn.apache.org/viewvc/commons/proper/cli/trunk/)
+ - [org.apache.commons.cli - Anleitung und Beispiele](http://www.wenzlaff.de/cli.html)

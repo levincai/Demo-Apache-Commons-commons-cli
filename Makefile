@@ -3,8 +3,11 @@
 
 # ---
 
-run:
-	mvn clean package exec:java -Dexec.args="-v=test"
+successrun:
+	mvn clean package exec:java -Dexec.args="-a \"Pflichtfeld\" -t = 55 --size SIZE -name \"THOMAS WENZLAFF\" -g2"
+
+failrun:
+	mvn clean package exec:java -Dexec.args="-a \"Pflichtfeld\" -t = 55 --size SIZE -name \"THOMAS WENZLAFF\" -g2 -g1"
 
 .PHONY: release dist readme test lint coverage clean
 
