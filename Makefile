@@ -3,6 +3,9 @@
 
 # ---
 
+run:
+	mvn clean package exec:java
+
 successrun:
 	mvn clean package exec:java -Dexec.args="-a \"Pflichtfeld\" -t = 55 --size SIZE -name \"THOMAS WENZLAFF\" -g2"
 
