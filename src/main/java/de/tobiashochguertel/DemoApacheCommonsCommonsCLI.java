@@ -11,14 +11,12 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 /**
- * @Author of Code Example: Thomas Wenzlaff <info-anfrage@wenzlaff.de>
- * @See http://www.wenzlaff.de/cli.html
+ * @author of Code Example: Thomas Wenzlaff <info-anfrage@wenzlaff.de>, http://www.wenzlaff.de/cli.html}
  */
 
 /**
- * @Class DemoApacheCommonsCommonsCLI
+ * DemoApacheCommonsCommonsCLI Class is the Main Class of the Commandline Demostration Application.
  *
- * Main Class, Our Commandline Demostration Application.
  */
 public class DemoApacheCommonsCommonsCLI {
 
@@ -27,7 +25,7 @@ public class DemoApacheCommonsCommonsCLI {
     /**
      * Java-Main-Method
      *
-     * @See: https://github.com/tobiashochguertel/Demo-Apache-Commons-commons-cli/blob/35318be8099ec9a13e3ce5827c4c2609cd5798ad/src/main/java/de/tobiashochguertel/Cli.java#L37-L39
+     * Check the following Source Code to get an idea how to use commons-cli in an real application: https://github.com/tobiashochguertel/Demo-Apache-Commons-commons-cli/blob/35318be8099ec9a13e3ce5827c4c2609cd5798ad/src/main/java/de/tobiashochguertel/Cli.java#L37-L39
      *
      * @param args Given commandline arguments
      */
