@@ -10,8 +10,8 @@ clean:
 	rm -f *.class
 
 classes:
-	$(JAVAC) MyHelloWorld.java
+	$(JAVAC) AppliedApacheCommonsCoomonsCLI.java
 
-run:
+run: classes
 	export CLASSPATH="$(CLASSPATH);."
-	$(JAVA) MyHelloWorld
+	$(JAVA) AppliedApacheCommonsCoomonsCLI
