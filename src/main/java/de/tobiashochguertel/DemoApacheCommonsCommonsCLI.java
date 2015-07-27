@@ -15,10 +15,22 @@ import org.apache.commons.cli.ParseException;
  * @See http://www.wenzlaff.de/cli.html
  */
 
+/**
+ * @Class DemoApacheCommonsCommonsCLI
+ *
+ * Main Class, Our Commandline Demostration Application.
+ */
 public class DemoApacheCommonsCommonsCLI {
 
     private static final String KLASSEN_NAME = "de.tobiashochguertel.DemoApacheCommonsCommonsCLI";
 
+    /**
+     * Java-Main-Method
+     *
+     * @See: https://github.com/tobiashochguertel/Demo-Apache-Commons-commons-cli/blob/35318be8099ec9a13e3ce5827c4c2609cd5798ad/src/main/java/de/tobiashochguertel/Cli.java#L37-L39
+     *
+     * @param args Given commandline arguments
+     */
     public static void main(String[] args) {
 
         CommandLine lvCmd = null;
